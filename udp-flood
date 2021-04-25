@@ -1,0 +1,21 @@
+#CrazysHacks
+import time
+import os
+import socket
+import random
+
+os.system("clear")
+
+#Prefix
+pre = "\033[1;31;40m[-] \033[1;37;40m"
+fix = "\033[1;32;40m[+] \033[1;37;40m"
+
+#Config
+bytes = random._urandom(1024)
+ip = input(pre + "IP: ")
+port = random.choice([80, 8080, 25565, 2020])
+msg = input(pre + "Byte MSG: ")
+
+while 1:
+    time.sleep(0.2)
+    print("\033[1;31;40mATTACKING >\033[1;37;40m ",ip," | ",port," | MSG: ",msg)
