@@ -1,0 +1,52 @@
+#CrazysHacks creator
+import time
+import os
+import random
+
+os.system("clear")
+
+#string
+lista = ["uYWia","9FvBm","SspYs","ROE70","ktRoz","VtdZ6","ubt6C","rbGZK","9L9IR","9yUed","r9jwL","R1pFJ","R2USX","JmErj","gxOG3","ysIQk","C4Loj","18wK0","WIn7E","WZqUI","H0G5g","JVose","kwAWm","d2BTe","DO5BI","dmU8V","8nPvE","myA5u","7ddMo","7Xanf","J4hMT","6NUat","AKsMw","wyzEp","gt3OZ","WEAQl","a7tNh","CIBft","8F7JP","IJNqT","QmNKi","ooPWM","ncXZ9","bNP35","14NbI","3aexM","bmkhp","QIQis","k9Xkn","fWPEq","GBlV4","6n9Lx","zpeEy","tlDGC","IfXV7","ufcp9","ySdL9","TSejJ","HZIqg","8ShEc","VsPbg","b5Amh","HiZTN","oeqz3","EVjgs","G9GZp","gir2R","Exvqk","7XIbP","6ZXwM","5p7do","vKFln","Ybibj","5GZ5q","vi3Ls","kheNp","sWW9A","lvCy6","AfbG7","0zgxt","5gnP8","CKOMI","5x5U3","eU9mG","uySPM","C7AoC","kF8lb","U8TKm","YY36W","i5Zqn","yxu0d","KG6ki","dswas","eNWbr","imQnE","8Mfa7","XO3wa","fMiw9","jZu4p","4EQKr","aYwib","8fqBm","zzpYz","SuE70","ktSuz","qtdZ6","abt6D","SbjZK","8k8IS","8Yaed","S8jwk","S2pfJ","S2azX","JmESj","jxuj3","YzIQk","D4kuj","28wK0","wIn7E","wZqaI","20j5j","Jquze","kwbwm","d2BTe","Du5BI","dma8q","8nPqE","mYb5a","7ddMu","7Xbnf","J42MT","6Nabt","bKzMw","wYzEp","jt3uZ","wEbQk","b7tN2","DIBft","8f7JP","IJNqT","QmNKi","uuPwM","nDXZ8","bNP35","24NbI","3bexM","bmk2p","QIQiz","k8Xkn","fwPEq","jBkq4","6n8kx","zpeEY","tkDjD","IfXq7","afDp8","Yzdk8","TzejJ","2ZIqj","8z2ED","qzPbj","b5bm2","2iZTN","ueqz3","Eqjjz","j8jZp","jiS2S","Exqqk","7XIbP","6ZXwM","5p7du","qKfkn","Ybibj","5jZ5q","qi3kz","k2eNp","zww8b","kqDY6","bfbj7","0zjxt","5jnP8","DKuMI","5x5a3","ea8mj","aYzPM","D7buD","kf8kb","a8TKm","YY36w","i5Zqn","Yxa0d","Kj6ki","dzwbz","eNwbS","imQnE","8Mfb7","Xu3wb","fMiw8","jZa4p","4EQKS"]
+
+#code
+def run():
+    print("Lineas (1-2-3-4-5)")
+    x = input(">> ")
+    if x == "1":
+        a()
+    if x == "2":
+        b()
+    if x == "3":
+        c()
+    if x == "4":
+        d()
+    else:
+        e()
+def a():
+    print("\033[1;31;40mCODES:\033[1;37;40m")
+    while 1:
+        time.sleep(0.1)
+        print(random.choice(lista))
+def b():
+    print("\033[1;31;40mCODES:\033[1;37;40m")
+    while 1:
+        time.sleep(0.1)
+        print(random.choice(lista) + "-" + random.choice(lista))
+def c():
+    print("\033[1;31;40mCODES:\033[1;37;40m")
+    while 1:
+        time.sleep(0.1)
+        print(random.choice(lista) + "-" + random.choice(lista) + "-" + random.choice(lista))
+def d():
+    print("\033[1;31;40mCODES:\033[1;37;40m")
+    while 1:
+        time.sleep(0.1)
+        print(random.choice(lista) + "-" + random.choice(lista) + "-" + random.choice(lista) + "-" + random.choice(lista))
+def e():
+    print("\033[1;31;40mCODES:\033[1;37;40m")
+    while 1:
+        time.sleep(0.1)
+        print(random.choice(lista) + "-" + random.choice(lista) + "-" + random.choice(lista) + "-" + random.choice(lista) + "-" + random.choice(lista))
+
+
+run()
